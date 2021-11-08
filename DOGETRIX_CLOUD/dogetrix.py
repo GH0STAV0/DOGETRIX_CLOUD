@@ -592,7 +592,7 @@ def satrt_now():
 
 	try:
 		init_fire()
-		mod_vpn.fnc_vpn ()
+		# mod_vpn.fnc_vpn ()
 		width , height =cnf_bvb.resolution_func()
 		ltc_login(width,height)
 
