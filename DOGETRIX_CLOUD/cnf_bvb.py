@@ -20412,11 +20412,11 @@ new_driver_path = '/usr/bin/geckodriver13'
 
 def random_fir():
 	user_agent = random.choice(user_agent_list)
-	firefox_version=['53.0','53.0.2']
+	firefox_version=['53.0b9','53.0.2']
 	# firefox_version=['57.0.1','58.0.1','59.0b9','60.0.1esr']
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
-	new_binary_path="/root/EXTRA/firefox-"+random_firefox_version+"/firefox/firefox"
+	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
 	return new_binary_path , user_agent
  
 
